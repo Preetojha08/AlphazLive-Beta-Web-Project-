@@ -1,3 +1,8 @@
+<?php 
+require 'login.php';
+require 'registration.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
