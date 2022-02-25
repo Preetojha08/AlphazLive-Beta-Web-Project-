@@ -1,6 +1,6 @@
 <?php 
 require 'login.php';
-require 'reg.php';
+require 'registration.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
