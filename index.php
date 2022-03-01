@@ -23,6 +23,7 @@ require 'registration.php';
         <a href="#home_1" class="logo">Cronic Technologies</a>
         <div id="menu-icon" class="fas fa-bars"></div>
   
+        
         <ul class="navbar">
          
           <li><a class="about_2" href="#about_2">About</a></li>
