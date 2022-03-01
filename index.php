@@ -23,7 +23,7 @@ require 'registration.php';
         <a href="#home_1" class="logo">Cronic Technologies</a>
         <div id="menu-icon" class="fas fa-bars"></div>
   
-        
+
         <ul class="navbar">
          
           <li><a class="about_2" href="#about_2">About</a></li>
@@ -151,6 +151,80 @@ require 'registration.php';
           </div>
         </div>
       </div>      
+    </section>
+
+
+    <!-- Testimonies -->
+    <section class="certificate" id="certificate_5">
+      <div class="heading">
+        <h1>Top Testimonies</h1>
+      </div>
+
+      <!-- Certificate Content -->
+
+      <div class="portfolio-content">
+        <!-- 1 -->
+        <div class="c-box">
+          <div class="c-img">
+            <img src="Testimonies/micro.png" alt="images" />
+          </div>
+
+          <div class="c-box-content">
+            <h2>Bill Gates</h2>
+            <p>
+              Microsoft Corporation, Technology company
+              <br /> Lorem ipsum dolor sit ag elit.  <br>
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="c-box">
+          <div class="c-img">
+          <img src="Testimonies/micro.png" alt="images" />
+          </div>
+
+          <div class="c-box-content">
+            <h2>Bill Gates</h2>
+            <p>
+              Microsoft Corporation, Technology company
+              <br /> Lorem ipsum dolor sit ag elit.  <br>
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="c-box">
+          <div class="c-img">
+          <img src="Testimonies/micro.png" alt="images" />
+          </div>
+
+          <div class="c-box-content">
+            <h2>Bill Gates</h2>
+            <p>
+              Microsoft Corporation, Technology company
+              <br /> Lorem ipsum dolor sit ag elit.  <br>
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="c-box">
+          <div class="c-img">
+          <img src="Testimonies/micro.png" alt="images" />
+          </div>
+
+          <div class="c-box-content">
+            <h2>Bill Gates</h2>
+            <p>
+              Microsoft Corporation, Technology company
+              <br /> Lorem ipsum dolor sit ag elit.  <br>
+            </p>
+          </div>
+        </div>
+
+
+      </div>
     </section>
 
      <!-- Contact -->
