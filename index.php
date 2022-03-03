@@ -20,25 +20,25 @@ require 'registration.php';
     
     <!-- Navbar -->
     <header>
-        <a href="#home_1" class="logo">Cronic Technologies</a>
+        <a href="#home_1" class="logo">Alpha Live</a>
         <div id="menu-icon" class="fas fa-bars"></div>
   
 
         <ul class="navbar">
          
           <li><a class="about_2" href="#about_2">About</a></li>
-          <li><a class="products_3" href="#skills_3">Products</a></li>
-          <li><a class="servies_5" href="#certificate_5">Services</a></li>
+          <li><a class="servies_5" href="#servies_4">Services</a></li>
+          <li><a class="products_3" href="#product_3">Products</a></li>
           <li><a class="login_6" href="file:///Users/apple/Desktop/Mahendra%20Bhaiya%20/login_reg.html">Login</a></li>
-          <li><a class="contactus_7" href="#contactus">Contact US</a></li>
+          <li><a class="contactus_7" href="#contact_6">Contact US</a></li>
           <!-- <li><a href="#certificate">Services</a></li> -->
         </ul>
       </header>
   
       <section class="home" id="home_1">
         <div class="home-text">
-          <h1>Welcome To <span>Cronic Technologies</span></h1>
-          <h2 class="company_intro"> Cronic Technologies is a leading end-to-end IT solutions provider in the country. Leveraging its relationship with world leaders in the IT space, Cronic has demonstrated expertise in a wide range of Technologies. </h2>
+          <h1>Welcome To <span>Alpha Live Solutions</span></h1>
+          <h2 class="company_intro"> Alpha Live Solutions is a leading end-to-end IT solutions provider in the country. Leveraging its relationship with world leaders in the IT space, Alpha Live has demonstrated expertise in a wide range of Technologies. </h2>
           <p></p>
           <a href="https://www.buymeacoffee.com/PreetOjha08" target="_blank" class="btn">Book A Meeting Now</a>
         </div>
@@ -66,7 +66,7 @@ require 'registration.php';
 
     <!-- Servies -->
 
-    <section class="portfolio" id="portfolio_4">
+    <section class="portfolio" id="servies_4">
       <div class="heading">
         <h1>Servies</h1>
       </div>
@@ -90,7 +90,7 @@ require 'registration.php';
 
     <!-- Products -->
 
-    <section class="certificate" id="certificate_5">
+    <section class="certificate" id="product_3">
       <div class="heading">
         <h1>Top Workstation</h1>
       </div>
