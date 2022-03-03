@@ -63,8 +63,6 @@
 
 .form .signup-form{
   display: none;
-  margin-top: 100px;
-  margin: 30px;
 }
 
 .form .user-input{
@@ -85,7 +83,7 @@
 .form .user-input:hover, .form .user-input:focus, .form .user-input:active{
   border-left: solid 8px #01a29c;
   border-right: solid 8px #01a29c;
-  box-shadow: 0 0 100px rgba(1, 162, 156,0.8); 
+  box-shadow: 0 0 100px rgba(1, 162, 156,0.8);
 }
 
 .form .options-01{
@@ -130,9 +128,9 @@
 }
 
 .form .btn:hover{
-  border-left: solid 8px #01a29c;
-  border-right: solid 8px #01a29c;
-  box-shadow: 0 0 100px rgba(1, 162, 156,0.8); 
+  border-left: solid 8px rgba(255, 255, 255, 0.5);
+  border-right: solid 8px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 100px rgba(1, 162, 156,0.8);
 }
 
 .form .options-02{
