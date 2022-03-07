@@ -231,7 +231,6 @@ header .navbar li .active,header .navbar a:hover {
 .portfolio-content {
   display: flex;
   background: #000;
-  align-items: cer;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -490,19 +489,23 @@ form textarea {
 
 /* Testimonies */
 
-/*
+.testimonies{
+  background: #000;
+  width: 100%;
+  min-height: 50vh;
+}
+
 .c-box{
   width: 480px;
-  height: 570px;
-  background: #000;
-   
+  height: 170px;
   background: #2c3e50;
-  border: 3px solid var(--primary); 
+  /* background: #000;
+  border: 3px solid #2c3e50;   */
   margin: 20px;
   border-radius: 30px;
   padding: 30px;
   text-align: left;
-}*/
+}
 .c-box-content{
   float: inline-start;
   margin-left: 10px;

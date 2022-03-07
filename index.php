@@ -46,7 +46,7 @@ require 'registration.php';
          
           <li><a class="about_2" href="#about_2">About</a></li>
           <li><a class="servies_5" href="#servies_4">Services</a></li>
-          <li><a class="products_3" href="#product_3">Products</a></li>
+          <li><a class="products_3" href="#Testimonies_5">Testimonies</a></li> 
           <li><a class="contactus_7" href="#contact_6">Contact US</a></li>
           <li><a class="login_6" href="http://localhost:8080/hello/login_reg.php" target="_blank">Login</a></li>
           <!-- <li><a href="#certificate">Services</a></li> -->
@@ -134,6 +134,62 @@ require 'registration.php';
           </div>
         </div>
 
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
 
         <div class="card">
           <div class="image">
@@ -172,14 +228,14 @@ require 'registration.php';
     </section>
 
     <!-- Testimonies -->
-    <section class="certificate" id="certificate_5">
+    <section class="testimonies" id="Testimonies_5">
       <div class="heading">
         <h1>Top Testimonies</h1>
       </div>
 
-      <!-- Certificate Content -->
+      <!-- Testimonies Content -->
 
-      <div class="carousel" data-flickity='{ "wrapAround": false, "autoPlay": true, "imagesLoaded":true, "groupCells": true }'>
+      <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true, "groupCells": true }'>
         
         <!-- 1 -->
         <div class="carousel-cell">
@@ -190,7 +246,7 @@ require 'registration.php';
             </div>
 
             <div class="c-box-content">
-              <h2>Bill Gates</h2>
+              <h2>Bill Gates 1</h2>
               <p>
                 Microsoft Corporation, Technology company
                 <br /> Lorem ipsum dolor sit ag elit.  <br>
@@ -209,7 +265,7 @@ require 'registration.php';
             </div>
 
             <div class="c-box-content">
-              <h2>Bill Gates</h2>
+              <h2>Bill Gates 2</h2>
               <p>
                 Microsoft Corporation, Technology company
                 <br /> Lorem ipsum dolor sit ag elit.  <br>
@@ -228,7 +284,7 @@ require 'registration.php';
             </div>
 
             <div class="c-box-content">
-              <h2>Bill Gates</h2>
+              <h2>Bill Gates 3</h2>
               <p>
                 Microsoft Corporation, Technology company
                 <br /> Lorem ipsum dolor sit ag elit.  <br>
@@ -247,7 +303,83 @@ require 'registration.php';
             </div>
 
             <div class="c-box-content">
-              <h2>Bill Gates</h2>
+              <h2>Bill Gates 4</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 5 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 5</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 6 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 6</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 7 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 7</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 8 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 8</h2>
               <p>
                 Microsoft Corporation, Technology company
                 <br /> Lorem ipsum dolor sit ag elit.  <br>
