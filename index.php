@@ -10,12 +10,30 @@ require 'registration.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahendra Bhaiya ki Website</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
 </head>
+<style media="screen">
+  .carousel {
+  background: #000;
+}
+
+.carousel-cell {
+  margin-right: 10px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+}
+
+</style>
 <body>
     
     <!-- Navbar -->
@@ -28,9 +46,9 @@ require 'registration.php';
          
           <li><a class="about_2" href="#about_2">About</a></li>
           <li><a class="servies_5" href="#servies_4">Services</a></li>
-          <li><a class="products_3" href="#product_3">Products</a></li>
-          <li><a class="login_6" href="file:///Users/apple/Desktop/Mahendra%20Bhaiya%20/login_reg.html">Login</a></li>
+          <li><a class="products_3" href="#Testimonies_5">Testimonies</a></li> 
           <li><a class="contactus_7" href="#contact_6">Contact US</a></li>
+          <li><a class="login_6" href="http://localhost:8080/hello/login_reg.php" target="_blank">Login</a></li>
           <!-- <li><a href="#certificate">Services</a></li> -->
         </ul>
       </header>
@@ -116,6 +134,62 @@ require 'registration.php';
           </div>
         </div>
 
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="image">
+            <img
+            src="Workstation/lenovo.png"
+            />
+          </div>
+          <div class="product_dec_box">
+            <div class="title">
+              <div class="c-box-content">
+                <h4>Lenovo Workstation</h4>
+              </div>
+            </div>
+            <div class="des">
+              <p>You can Add Project Desccription Five Here...</p>
+             
+            </div>
+          </div>
+        </div>
 
         <div class="card">
           <div class="image">
@@ -153,79 +227,174 @@ require 'registration.php';
       </div>      
     </section>
 
-
     <!-- Testimonies -->
-    <section class="certificate" id="certificate_5">
+    <section class="testimonies" id="Testimonies_5">
       <div class="heading">
         <h1>Top Testimonies</h1>
       </div>
 
-      <!-- Certificate Content -->
+      <!-- Testimonies Content -->
 
-      <div class="portfolio-content">
+      <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true, "groupCells": true }'>
+        
         <!-- 1 -->
-        <div class="c-box">
-          <div class="c-img">
-            <img src="Testimonies/micro.png" alt="images" />
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 1</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
           </div>
 
-          <div class="c-box-content">
-            <h2>Bill Gates</h2>
-            <p>
-              Microsoft Corporation, Technology company
-              <br /> Lorem ipsum dolor sit ag elit.  <br>
-            </p>
-          </div>
         </div>
 
         <!-- 2 -->
-        <div class="c-box">
-          <div class="c-img">
-          <img src="Testimonies/micro.png" alt="images" />
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 2</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
           </div>
 
-          <div class="c-box-content">
-            <h2>Bill Gates</h2>
-            <p>
-              Microsoft Corporation, Technology company
-              <br /> Lorem ipsum dolor sit ag elit.  <br>
-            </p>
-          </div>
         </div>
 
         <!-- 3 -->
-        <div class="c-box">
-          <div class="c-img">
-          <img src="Testimonies/micro.png" alt="images" />
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 3</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
           </div>
 
-          <div class="c-box-content">
-            <h2>Bill Gates</h2>
-            <p>
-              Microsoft Corporation, Technology company
-              <br /> Lorem ipsum dolor sit ag elit.  <br>
-            </p>
-          </div>
         </div>
 
         <!-- 4 -->
-        <div class="c-box">
-          <div class="c-img">
-          <img src="Testimonies/micro.png" alt="images" />
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 4</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
           </div>
 
-          <div class="c-box-content">
-            <h2>Bill Gates</h2>
-            <p>
-              Microsoft Corporation, Technology company
-              <br /> Lorem ipsum dolor sit ag elit.  <br>
-            </p>
-          </div>
         </div>
 
+        <!-- 5 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 5</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 6 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 6</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 7 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 7</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 8 -->
+        <div class="carousel-cell">
+
+          <div class="c-box">
+            <div class="c-img">
+            <img src="Images/Testimonies/microsoft.png" alt="images" />
+            </div>
+
+            <div class="c-box-content">
+              <h2>Bill Gates 8</h2>
+              <p>
+                Microsoft Corporation, Technology company
+                <br /> Lorem ipsum dolor sit ag elit.  <br>
+              </p>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
 
      <!-- Contact -->
      <section class="contact" id="contact_6">

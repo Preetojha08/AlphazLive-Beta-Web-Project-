@@ -1,6 +1,6 @@
 <?php 
 require 'login.php';
-require 'registartion.php';
+require 'registration.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -11,7 +11,7 @@ require 'registartion.php';
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="brand_new_style.css">
   </head>
   <body class="body">
   <div class="content" >
@@ -57,7 +57,7 @@ require 'registartion.php';
       <!--form area end-->
   </div>
     
-  <script src="script.js"></script>
+  <script src="new_script.js"></script>
   </body>
 </html>
                            
