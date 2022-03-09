@@ -17,6 +17,7 @@ require 'registration.php';
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    
 </head>
 <style media="screen">
   .carousel {
@@ -40,12 +41,11 @@ require 'registration.php';
     <header>
         <a href="#home_1" class="logo">Alpha Live</a>
         <div id="menu-icon" class="fas fa-bars"></div>
-  
-
         <ul class="navbar">
          
           <li><a class="about_2" href="#about_2">About</a></li>
           <li><a class="servies_5" href="#servies_4">Services</a></li>
+          <li><a class="servies_5" href="#servies_4">Store</a></li>
           <li><a class="products_3" href="#Testimonies_5">Testimonies</a></li> 
           <li><a class="contactus_7" href="#contact_6">Contact US</a></li>
           <li><a class="login_6" href="http://localhost:8080/hello/login_reg.php" target="_blank">Login</a></li>
@@ -70,7 +70,9 @@ require 'registration.php';
         <img class="img_about" src="Images/new_server.gif" alt="server_image" />
       </div>
       <div class="about-text">
-        <h1>Why We Are <span> Different</span></h1>
+        <h2>About Us</h2>
+        <div class="about-name"><h1>Why We Are <span> Different</span></h1></div>
+        
         <p></p>
         <h3 class="company_intro"> The Company is well positioned to provide advisory services to large and small enterprise that help them arrive at the right mix of technologies and the optimal way of deploying and managing them. </h3>
         <p></p>
@@ -82,149 +84,205 @@ require 'registration.php';
       
     </section>
 
-    <!-- Servies -->
+     <!-- Servies -->
 
-    <section class="portfolio" id="servies_4">
+    <section class="portfolio" id="servies_section">
       <div class="heading">
         <h1>Servies</h1>
       </div>
 
       <!-- Content -->
       <div class="portfolio-content">
-        <div class="p-box_servies_1">
-          <h2 class="p-box_servies_h2">Network Security</h2>  
+        
+        <div class="p-box_servies_1_new">
+          <div class="services_image">
+            <img src="Servies/1.png" alt="Images">
+          </div>
+          <div class="services_title">
+            <h2 class="p-box_servies_h2">Network Security</h2>  
+          </div>
+          <div class="services_desc">
+            <p>Network security consists of the policies, processes and practices adopted to prevent, detect and monitor unauthorized access, misuse, modification, or denial of a computer network and network-accessible.</p>
+          </div>
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
+          </div>
+          
         </div>
 
-        <div class="p-box_servies_2">
-          <h2 class="p-box_servies_h2" >Firewall Installation</h2> 
+        <div class="p-box_servies_1_new">
+          <div class="services_image">
+            <img src="Servies/2.png" alt="Images">
+          </div>
+          <div class="services_title">
+            <h2 class="p-box_servies_h2">Firewall Installation</h2>  
+          </div>
+          <div class="services_desc">
+            <p>Although they sound complex, firewalls are relatively easy to install, setup and operate. Most people think that a firewall is a of device that is installed on the network, and it controls the traffic that passes through the network segment.</p>
+          </div>
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
+          </div>
         </div>
 
-         <div class="p-box_servies_3">
-          <h2 class="p-box_servies_h2" >Server Configuration</h2>          
+        <div class="p-box_servies_1_new">
+          <div class="services_image">
+            <img src="Servies/3.png" alt="Images">
+          </div>
+          <div class="services_title">
+            <h2 class="p-box_servies_h2">Server Configuration</h2>  
+          </div>
+          <div class="services_desc">
+            <p>A server configuration defines a specific database as the repository for its data. To prevent corruption, that database can be associated with only one server configuration. However, that database can be used by other applications.</p>
+          </div>
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
+          </div>
+          
         </div>
        
       </div>
     </section>
 
-    <!-- Products -->
 
-    <section class="certificate" id="product_3">
+    <!-- Product part 2-->
+
+    <section class="product" id="our_products">
       <div class="heading">
-        <h1>Top Workstation</h1>
+        <h1>Our <span>Products</span></h1>
       </div>
 
-      <div class="portfolio-content">
+      <!-- Content -->
+      <div class="product-content">
+        
+        <div class="p-box_product_1_new">
 
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
+          <div class="product_main_title">
+            <h2 class="p-box_servies_h2">Top Workstation</h2>  
           </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <div class="c-box-content">
-                <h4>Lenovo Workstation</h4>
-              </div>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-             
-            </div>
+
+          <div class="product_image">
+            <img src="Servies/1.png" alt="Images">
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Lenovo Workstation</h2>  
+          </div>
+
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Dell Workstation</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">HP Workstation</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">IBM Workstation</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Tyan Workstation</h2>  
+          </div>
+          
+          <br></br>
+          
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
+        <div class="p-box_product_1_new">
+
+          <div class="product_main_title">
+            <h2 class="p-box_servies_h2">Top Servers</h2>  
           </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <div class="c-box-content">
-                <h4>Lenovo Workstation</h4>
-              </div>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-             
-            </div>
+
+          <div class="product_image">
+            <img src="Servies/2.png" alt="Images">
+          </div>
+
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Lenovo Server</h2>  
+          </div>
+
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">IBM Server</h2>  
+          </div>
+         
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Cisco Server</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">HPE Server</h2>  
+          </div>
+
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Tyan Server</h2>  
+          </div>
+          
+          <br></br>
+          
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
+          </div>
+          
+        </div>
+
+        <div class="p-box_product_1_new">
+
+           <div class="product_main_title">
+            <h2 class="p-box_servies_h2">Top Harddisk</h2>  
+          </div>
+
+          <div class="product_image">
+            <img src="Servies/3.png" alt="Images">
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Lenovo Harddisk</h2>  
+          </div>
+
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Seagate Harddisk</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Sandisk Harddisk</h2>  
+          </div>
+         
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Patanai Harddisk</h2>  
+          </div>
+          
+          <hr class="line"></hr>
+          <div class="product_title">
+            <h2 class="p-box_servies_h2">Tyan Harddisk</h2>  
+          </div>
+          
+          <br></br>
+          
+          <div class="service_button">
+            <a class="btn" href="">Know More</a>
           </div>
         </div>
 
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
-          </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <div class="c-box-content">
-                <h4>Lenovo Workstation</h4>
-              </div>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-             
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
-          </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <div class="c-box-content">
-                <h4>Lenovo Workstation</h4>
-              </div>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-             
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
-          </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <h4>Dell Workstation</h4>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-            
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="image">
-            <img
-            src="Workstation/lenovo.png"
-            />
-          </div>
-          <div class="product_dec_box">
-            <div class="title">
-              <h4>HP Workstation</h4>
-            </div>
-            <div class="des">
-              <p>You can Add Project Desccription Five Here...</p>
-             
-            </div>
-          </div>
-        </div>
-      </div>      
+      </div>
     </section>
 
     <!-- Testimonies -->
@@ -248,8 +306,8 @@ require 'registration.php';
             <div class="c-box-content">
               <h2>Bill Gates 1</h2>
               <p>
-                Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                Microsoft Corporation, Technology company 
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -268,7 +326,7 @@ require 'registration.php';
               <h2>Bill Gates 2</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -287,7 +345,7 @@ require 'registration.php';
               <h2>Bill Gates 3</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -306,7 +364,7 @@ require 'registration.php';
               <h2>Bill Gates 4</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -325,7 +383,7 @@ require 'registration.php';
               <h2>Bill Gates 5</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -344,7 +402,7 @@ require 'registration.php';
               <h2>Bill Gates 6</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -363,7 +421,7 @@ require 'registration.php';
               <h2>Bill Gates 7</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
@@ -382,7 +440,7 @@ require 'registration.php';
               <h2>Bill Gates 8</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit.  <br>
+                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
               </p>
             </div>
           </div>
