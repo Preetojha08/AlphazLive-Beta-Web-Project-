@@ -6,19 +6,13 @@
   box-sizing: border-box;
   text-decoration: none;
 
-  --bg-color: #000000;
-  --primary: #3f937a;
-  --bg: #c8e7df;
-  --new_new_primary: #01a29c;
-  --new_primary:rgb(8, 138, 133);
-  --hover: #008170;
 }
 
 
 .body{
   padding: 30px;
   margin: 40px;
-  background-color: #3f937a;
+  background-color: red;
 }
 
 .signup_img{
@@ -30,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3f937a;
+  background-color: red;
 }
 
 .form{
@@ -58,8 +52,8 @@
   margin-bottom: 30px;
   outline: none;
   border: none;
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  background: rgba(236, 14, 236, 1);
+  color: red;
   font-size: 18px;
   text-align: center;
   border-radius: 5px;
