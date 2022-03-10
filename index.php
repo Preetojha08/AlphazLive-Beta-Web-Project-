@@ -19,12 +19,8 @@ require 'registration.php';
     />
     
 </head>
-<style media="screen">
-  
 
-</style>
 <body>
-    
     <!-- Navbar -->
     <header>
         <a href="#home_1" class="logo">Alpha Live</a>

@@ -23,7 +23,7 @@ require 'registration.php';
           <i class="fas fa-user-circle"></i>
           
           <input class="user-input" type="email" name="log_email" placeholder="Personal Email">
-          <input class="user-input" type="password" name="log_pass" placeholder="Password">
+          <input class="user-input" type="password" name="log_pass" placeholder="Password"> 
          
           <div class="options-01">
             <label class="remember-me"><input type="checkbox" name="">Remember me</label>
