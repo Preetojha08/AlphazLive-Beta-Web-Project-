@@ -541,7 +541,8 @@ require 'registration.php';
       <p>&#169; Creatures ♥ All Right Reserved</p>
     </div>
 
-
+      <!-- Link To JS -->
+    <script src="script.js"></script>
 
 </body>
 </html>
