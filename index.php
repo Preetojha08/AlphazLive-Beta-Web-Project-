@@ -20,20 +20,7 @@ require 'registration.php';
     
 </head>
 <style media="screen">
-  .carousel {
-  background: #fff;
-}
-
-.carousel-cell {
-  margin-right: 10px;
-  background-color: #fff;
-  counter-increment: carousel-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-}
+  
 
 </style>
 <body>
@@ -45,11 +32,11 @@ require 'registration.php';
         <ul class="navbar">
          
           <li><a class="about_2" href="#about_2">About</a></li>
-          <li><a class="servies_5" href="#servies_4">Services</a></li>
-          <li><a class="servies_5" href="#servies_4">Store</a></li>
-          <li><a class="products_3" href="#Testimonies_5">Testimonies</a></li> 
-          <li><a class="contactus_7" href="#contact_6">Contact US</a></li>
-          <li><a class="login_6" href="http://localhost:8080/hello/login_reg.php" target="_blank">Login</a></li>
+          <li><a class="service_3" href="#service_3">Services</a></li>
+          <li><a class="our_product_4" href="#our_product_4">Store</a></li>
+          <li><a class="Testimonies_5" href="#Testimonies_5">Testimonies</a></li> 
+          <li><a class="contact_6" href="#contact_6">Contact US</a></li>
+          <li><a class="login" href="http://localhost:8080/hello/login_reg.php" target="_blank">Login</a></li>
           <!-- <li><a href="#certificate">Services</a></li> -->
         </ul>
       </header>
@@ -110,7 +97,7 @@ require 'registration.php';
 
      <!-- Servies -->
 
-    <section class="service" id="service_section">
+    <section class="service" id="service_3">
       <div class="heading">
         <h1>Servies</h1>
       </div>
@@ -171,7 +158,7 @@ require 'registration.php';
 
     <!-- Product -->
 
-    <section class="product" id="our_products">
+    <section class="product" id="our_product_4">
       <div class="heading">
         <h1>Our <span>Products</span></h1>
       </div>

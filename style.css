@@ -396,6 +396,21 @@ header .navbar li .active,header .navbar a:hover {
   transform: scale(1.2);
 }
 
+.carousel {
+  background: #fff;
+}
+
+.carousel-cell {
+  margin-right: 10px;
+  background-color: #fff;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+}
+
 
  /* Contact */
 

@@ -29,7 +29,7 @@ if (isset($_POST['reg'])) {
          if (!$query_result) {
             die("Query failed ". mysqli_error($connection));
          }else{
-            header('Location: animation img slider/index.html');
+            header('Location: index.php');
          }
       }
    }

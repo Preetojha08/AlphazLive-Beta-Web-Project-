@@ -5,33 +5,20 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+
+  --bg-color: #000000;
+  --primary: #3f937a;
+  --bg: #c8e7df;
+  --new_new_primary: #01a29c;
+  --new_primary:rgb(8, 138, 133);
+  --hover: #008170;
 }
 
-
-/* width */
-.form .signup-form::-webkit-scrollbar {
-  width: 3px;
-}
-
-/* Track */
-.form .signup-form::-webkit-scrollbar-track {
-  background: #000; 
-}
- 
-/* Handle */
-.form .signup-form::-webkit-scrollbar-thumb {
-  background: #4285F4; 
-}
-
-/* Handle on hover */
-.form .signup-form::-webkit-scrollbar-thumb:hover {
-  background: #fff; 
-}
 
 .body{
   padding: 30px;
   margin: 40px;
-  background-color: #000;
+  background-color: #3f937a;
 }
 
 .signup_img{
@@ -43,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: black;
+  background-color: #3f937a;
 }
 
 .form{
@@ -83,7 +70,7 @@
 .form .user-input:hover, .form .user-input:focus, .form .user-input:active{
   border-left: solid 8px #01a29c;
   border-right: solid 8px #01a29c;
-  box-shadow: 0 0 100px rgba(1, 162, 156,0.8);
+  box-shadow: 0 0 50px rgba(1, 162, 156,0.8);
 }
 
 .form .options-01{
