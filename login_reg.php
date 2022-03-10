@@ -35,7 +35,7 @@ require 'registration.php';
           </div>
         </form>
         <!--login form end-->
-        <!--signup form start-->
+        <!--signup form start--> 
         <form class="signup-form" action="" method="post">
           <i class="fas fa-user-plus"></i>
 

@@ -1,6 +1,7 @@
 <?php 
 require 'login.php';
 require 'registration.php';
+require 'contact_us.php';
 ?>
 
 <!DOCTYPE html>
@@ -503,24 +504,25 @@ require 'registration.php';
         </div>
         <!-- Contact Form -->
         <div class="contact-form">
-          <form action="">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <input type="subject" placeholder="Subject Here" />
+          <form action=""
+          method="post">
+            <input type="text" placeholder="Your Name" name="contact_u_name" id="contact_u_name"/>
+            <input type="email" placeholder="Your Email" name="contact_u_email" id="contact_u_email"/>
+            <input type="subject" placeholder="Subject Here" name="contact_u_subject" id="contact_u_subject"/>
             <textarea
-              name=""
-              id=""
+              name="contact_u_message"
+              id="contact_u_message"
               cols="30"
               rows="10"
               placeholder="Write your message here..."
             ></textarea>
-            <input type="button" value="Send" class="contact-button" />
+            <input type="submit" value="Send" name="send_contact" id="send_contact" class="contact-button" />
           </form>
         </div>
       </div>
     </section>
 
-    <!-- Copyright -->
+   
 
         <!-- Footer -->
     <footer id="footer" class="section footer">
@@ -581,6 +583,7 @@ require 'registration.php';
         </div>
       </div>
       </div>
+      <!-- Copyright -->
       <div class="copyright">
             <p>&#169; Creatures ♥ All Right Reserved</p>
       </div>
