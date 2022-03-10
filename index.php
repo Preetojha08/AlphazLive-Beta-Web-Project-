@@ -21,11 +21,12 @@ require 'registration.php';
 </head>
 <style media="screen">
   .carousel {
-  background: #000;
+  background: #fff;
 }
 
 .carousel-cell {
   margin-right: 10px;
+  background-color: #fff;
   counter-increment: carousel-cell;
 }
 
@@ -66,8 +67,31 @@ require 'registration.php';
       <!-- About -->
     <section class="about" id="about_2">
       <div class="about-img">
-        <!-- <img class="img_about" src="img/new_po.png" alt="" /> -->
-        <img class="img_about" src="Images/new_server.gif" alt="server_image" />
+        <!-- <img class="img_about" src="img/new_po.png" alt="" 
+        <img class="img_about" src="Images/new_server.gif" alt="server_image" />/> -->
+
+        <div class="about_icon">
+          <img src="About/star.png" alt="">
+        </div>
+        <div class="about_icon_title">
+            <h2>5-Star Rating</h2>
+        </div>
+        
+        <div class="about_icon">
+          <img src="About/truck.png" alt="">
+        </div>
+        <div class="about_icon_title">
+            <h2>Fast Delivery</h2>
+        </div>
+
+        <div class="about_icon">
+          <img src="About/support.png" alt="">
+        </div>
+        <div class="about_icon_title">
+            <h2>Technical Support</h2>
+        </div>
+        
+        
       </div>
       <div class="about-text">
         <h2>About Us</h2>
@@ -281,7 +305,6 @@ require 'registration.php';
             <a class="btn" href="">Know More</a>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -307,7 +330,7 @@ require 'registration.php';
               <h2>Bill Gates 1</h2>
               <p>
                 Microsoft Corporation, Technology company 
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -326,7 +349,7 @@ require 'registration.php';
               <h2>Bill Gates 2</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -345,7 +368,7 @@ require 'registration.php';
               <h2>Bill Gates 3</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -364,7 +387,7 @@ require 'registration.php';
               <h2>Bill Gates 4</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -383,7 +406,7 @@ require 'registration.php';
               <h2>Bill Gates 5</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -402,7 +425,7 @@ require 'registration.php';
               <h2>Bill Gates 6</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -421,7 +444,7 @@ require 'registration.php';
               <h2>Bill Gates 7</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -440,7 +463,7 @@ require 'registration.php';
               <h2>Bill Gates 8</h2>
               <p>
                 Microsoft Corporation, Technology company
-                <br /> Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit. Lorem ipsum dolor sit ag elit.  <br>
+                <br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam error. Quisquam dolorum tenetur eius a aperiam, error ad autem accusamus nostrum pariatur minus odio beatae harum. Animi omnis deleniti voluptas, optio fuga aliquid ea. <br>
               </p>
             </div>
           </div>
@@ -449,6 +472,7 @@ require 'registration.php';
 
       </div>
     </section>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -485,9 +509,6 @@ require 'registration.php';
               href="https://www.linkedin.com/in/developer-preet-ojha/"
               target="blank"
               ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="https://github.com/Preetojha08" target="blank"
-              ><i class="fab fa-github"></i
             ></a>
             <a
               href="https://play.google.com/store/apps/developer?id=Creatures"

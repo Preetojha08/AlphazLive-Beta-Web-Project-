@@ -197,7 +197,37 @@ header .navbar li .active,header .navbar a:hover {
 }
 .about-img {
   max-width: 400px;
-  max-height: 300px;
+  margin-left: 90px;
+  max-height: 500px;
+  background-color: var(--bg);
+  padding: 40px;
+}
+
+.about_icon{
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  box-shadow: 5px 10px var(--primary);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  border-radius: 12px;
+}
+
+.about_icon img{
+  width: 50px;
+  padding: 10px;
+  height: 50px;
+}
+
+.about_icon_title h2{
+  max-width: 150px;
+  background-color: var(--bg);
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: var(--h2-font);
+  color: var(--primary);
 }
 
 .img_about {
@@ -585,38 +615,40 @@ form textarea {
 /* Testimonies */
 
 .testimonies{
-  background: #000;
+  background: #fff;
   width: 100%;
   min-height: 50vh;
 }
 
 .c-box{
-  width: 480px;
-  height: 200px;
-  background: #2c3e50;
-  /* background: #000;
-  border: 3px solid #2c3e50;   */
+  display: grid;
+  flex-direction: column;
+  text-align: center;
+  width: 520px;
+  height: 400px;
   margin: 20px;
+  background: white;
   border-radius: 30px;
   padding: 30px;
   text-align: left;
 }
 .c-box-content{
-  float: inline-start;
+  align-items: center;
+  text-align: center;
+  background: white;
   margin-left: 10px;
 }
 
 .c-img {
   width: 100px;
-  float: left;
   height: 100px;
   padding: 15px;
+  margin: auto;
 }
 
 .c-img img {
-  float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  float: center;
+  margin: auto;
   height: 100%;
   width: 100%;
   border-radius: 25%;
@@ -625,10 +657,12 @@ form textarea {
 .c-box h2{
   font-size: var(--h2-font);
   font-weight: 600;
-  margin: 10px 0;
+  color: var(--primary);
+  margin: 10px
 }
 .c-box p{
   font-size: var(--p-font);
+  color: var(--primary);
   font-weight: 400;
 }
 
