@@ -185,8 +185,6 @@ header .navbar li .active,header .navbar a:hover {
   color: #000;
 }
 
-/* New About Us   */
-
 .about {
   width: 100%;
   min-height: 84vh;
@@ -262,91 +260,23 @@ header .navbar li .active,header .navbar a:hover {
   font-weight: 300;
 }
 
+
+.about_icon:hover, .about_icon_title:hover {
+  transform: scale(1.2);
+}
+
 /* Servies */
 
-.portfolio-content {
+.service-content {
   display: flex;
   background-color: white;
   justify-content: center;
   flex-wrap: wrap;
 }
-.portfolio{
+.service{
   background-color: white;
   width: 100%;
   min-height: 75vh;
-}
-.p-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  height: 350px;
-  background: #2c3e50;
-  margin: 20px;
-  border-radius: 30px;
-  padding: 40px;
-  text-align: center;
-}
-
-.p-box h2 {
-  font-size: var(--h2-font);
-  font-weight: 600;
-  margin: 10px 0;
-}
-.p-box p {
-  font-size: var(--p-font);
-  font-weight: 400;
-}
-
-.p-box_servies_1 {
-  display: grid;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Servies/1.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* background: #000;
-  border: 3px solid var(--primary); */
-  margin: 20px;
-  border-radius: 30px;
-  padding: 40px;
-  text-align: center;
-}
-
-.p-box_servies_2 {
-  display: grid;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Servies/2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* background: #000;
-  border: 3px solid var(--primary); */
-  margin: 20px;
-  border-radius: 30px;
-  padding: 40px;
-  text-align: center;
-}
-
-.p-box_servies_3 {
-  display: grid;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 300px;
-  height: 300px;
-  background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Servies/3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* background: #000;
-  border: 3px solid var(--primary); */
-  margin: 20px;
-  border-radius: 30px;
-  padding: 40px;
-  text-align: center;
 }
 
 .p-box_servies_1_new {
@@ -367,7 +297,6 @@ header .navbar li .active,header .navbar a:hover {
   padding: 20px;
   text-align: center;
 }
-
 
 .services_image img{
 
@@ -392,6 +321,11 @@ header .navbar li .active,header .navbar a:hover {
   text-align: justify;
 }
 
+.p-box_servies_1_new:hover{
+  transform: scale(1.2);
+}
+
+/* Product Content */
 
 .product-content {
   display: flex;
@@ -413,7 +347,7 @@ header .navbar li .active,header .navbar a:hover {
   background-color: rgb(255,255,255);
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow: 0.1rem 0.5rem 1.5rem rgba(255, 255, 255, 0.5);;
+  
   /* background: #000;
   background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(Servies/1.jpg);
   border: 3px solid var(--primary); */
@@ -438,17 +372,14 @@ header .navbar li .active,header .navbar a:hover {
 }
 
 .product_image img{
-
   max-width: 240px;
   max-height: 260px;
   margin: auto;
-
 }
 
 .line{
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
 }
-
 
 .p-box_servies_h2{
   font-weight: 600;
@@ -465,69 +396,8 @@ header .navbar li .active,header .navbar a:hover {
   transform: scale(1.2);
 }
 
-.card:hover{
 
-  transform: scale(1.1);
-  background: var(--primary);
-  cursor: pointer;
-  border-top: 2px solid var(--primary);
-  border-left: 2px solid var(--primary);
-  border-right: 2px solid var(--primary);
-  border-bottom: 2px solid var(--primary);
-
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  transition: 0.3s;
-  width: 20%;
-  margin: 1.5%;
-  display: inline-block;
-  margin-bottom: 0.5cm;
-  border-radius: 15px; 
-}
-
-.image img{
-  border-top: 2px solid var(--primary);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-left: 2px solid var(--primary);
-  border-right: 2px solid var(--primary);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: 260px;
-  width: 100%;
-  size: 80px;
- }
-
- .title{
-  text-align: center;
-  background-color: #2c3e50;
-  padding: 8px;
-  font-size: 1.1rem;
-  border-radius: 15px;
-  
- }
-
- .des{
-  text-align: center;
-  background-color: #0a85ff;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: var(--p-font);
-  font-weight: 400;
-  border-radius: 20px;
-  
-}
-
-
-.certificate{
-  background: #000;
-  width: 100%;
-  min-height: 75vh;
-}
+ /* Contact */
 
 .contact{
   background: var(--bg);
@@ -671,8 +541,7 @@ form textarea {
   --hover: #008170; */
 
 .c-box:hover, .p-box:hover {
-  transform: scale(1.1);
-  background: linear-gradient(#008170,#01a29c);
+  transform: scale(1.2);
 }
 .p-img {
   width: 90px;

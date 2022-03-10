@@ -110,13 +110,13 @@ require 'registration.php';
 
      <!-- Servies -->
 
-    <section class="portfolio" id="servies_section">
+    <section class="service" id="service_section">
       <div class="heading">
         <h1>Servies</h1>
       </div>
 
-      <!-- Content -->
-      <div class="portfolio-content">
+      <!--Servies Content -->
+      <div class="service-content">
         
         <div class="p-box_servies_1_new">
           <div class="services_image">
@@ -169,7 +169,7 @@ require 'registration.php';
     </section>
 
 
-    <!-- Product part 2-->
+    <!-- Product -->
 
     <section class="product" id="our_products">
       <div class="heading">
