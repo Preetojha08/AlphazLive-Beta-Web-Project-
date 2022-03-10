@@ -13,6 +13,7 @@ require 'registration.php';
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="style.css" />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -520,12 +521,78 @@ require 'registration.php';
     </section>
 
     <!-- Copyright -->
-    <div class="copyright">
-      <p>&#169; Creatures ♥ All Right Reserved</p>
-    </div>
+
+        <!-- Footer -->
+    <footer id="footer" class="section footer">
+      <div class="container">
+      
+        <div class="footer-container">
+
+          <div class="footer-center">
+            <h3>PRODUCTS</h3>
+            <a href="#">Server</a>
+            <a href="#">Workstation</a>
+            <a href="#">SSD</a>
+            <a href="#">Harddisk</a>
+            <a href="#">Laptops</a>
+          </div>
+          <div class="footer-center">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Services</a>
+          </div>
+          <div class="footer-center">
+            <h3>MY ACCOUNT</h3>
+            <a href="#">My Account</a>
+            <a href="#">Order History</a>
+            <a href="#">Wish List</a>
+          
+          </div>
+          <div class="footer-center">
+            <h3>CONTACT US</h3>
+            <div>
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              42 Dream House, Dreammy street, 7131 Dreamville, USA
+            </div>
+            <div>
+              <span>
+                <i class="far fa-envelope"></i>
+              </span>
+              company@gmail.com
+            </div>
+            <div>
+              <span>
+                <i class="fas fa-phone"></i>
+              </span>
+              456-456-4512
+            </div>
+            <div>
+              <span>
+                <i class="far fa-paper-plane"></i>
+              </span>
+              Dream City, USA
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="copyright">
+            <p>&#169; Creatures ♥ All Right Reserved</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+       
+  
 
       <!-- Link To JS -->
     <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
 </body>
 </html>

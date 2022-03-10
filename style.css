@@ -31,6 +31,16 @@ body::-webkit-scrollbar-thumb {
   --new_primary:rgb(8, 138, 133);
   --hover: #008170;
 
+
+  --white: #fff;
+  --black: #222;
+  --pink: #f60091;
+  --grey: #444;
+  --grey2: #959595;
+  --grey-alt: #d1e2e9;
+  --yellow: #ffd800;
+  --green: #59b210;
+
   /* Fonts */
   --logo-font: 2rem;
   --nav_menu-font: 1rem;
@@ -493,7 +503,7 @@ form textarea {
 .copyright {
   padding: 20px;
   text-align: center;
-  background: var(--primary);
+  background-color: var(--primary);
 }
 
 
@@ -576,5 +586,100 @@ form textarea {
 .p-box p {
   font-size: var(--p-font);
   font-weight: 400;
+}
+
+/* Footer */
+
+/* ========= Footer ======== */
+.footer {
+  background-color: var(--primary);
+  line-height: 2.4rem;
+}
+
+.footer-center span {
+  margin-right: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  padding: 3rem 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  color: var(--white);
+}
+
+.footer-center a:link,
+.footer-center a:visited {
+  display: block;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  color: white;
+  transition: 0.6s;
+}
+
+.footer-center a:hover {
+  transform: scale(1.2);
+}
+
+.footer-center div {
+  color: #f1f1f1;
+  font-size: 1.1rem;
+}
+
+.footer-center h3 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 998px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+
+/* All Products */
+.section .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.all-products .top select {
+  font-family: "Poppins", sans-serif;
+  width: 20rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  appearance: none;
+  outline: none;
+}
+
+form {
+  position: relative;
+  z-index: 1;
+}
+
+form span {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .all-products .top select {
+    width: 15rem;
+  }
 }
 
