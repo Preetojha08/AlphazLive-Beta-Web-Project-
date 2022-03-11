@@ -18,7 +18,7 @@ if (isset($_POST['login'])) {
          if (!$query_result) {
             die("Query failed ". mysqli_error($connection));
          }else{
-            header('Location: animation img slider/index.html');
+            header('Location: index.php');
          }
       }else{
          header('Location: error.php');

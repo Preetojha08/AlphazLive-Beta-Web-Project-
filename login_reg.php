@@ -20,7 +20,7 @@ require 'registration.php';
     <div class="form" >
         <!--login form start-->
         <form class="login-form" action="" method="post">
-          <i class="fas fa-user-circle"></i>
+          <span><i class="fas fa-user-circle"></i></span>
           
           <input class="user-input" type="email" name="log_email" placeholder="Personal Email">
           <input class="user-input" type="password" name="log_pass" placeholder="Password"> 
@@ -37,13 +37,13 @@ require 'registration.php';
         <!--login form end-->
         <!--signup form start--> 
         <form class="signup-form" action="" method="post">
-          <i class="fas fa-user-plus"></i>
-
+          
+          <span><i class="fas fa-user-plus"></i></span>
+      
           <input class="user-input" type="name" name="reg_name" placeholder="Name">
           <input class="user-input" type="email" name="reg_email" placeholder="Personal Email">
           <input class="user-input" type="name" name="reg_org_name" placeholder="Organization Name">
-          <input class="user-input" type="email" name="reg_org_email" placeholder="Organization Email">
-          <input class="user-input" type="name" name="reg_u_role" placeholder="User Designation/Role">
+         
           <input class="user-input" type="number" name="reg_u_mobile" placeholder="Mobile No">
           <input class="user-input" type="password" name="reg_pass" placeholder="Password">
           <input class="user-input" type="password" name="reg_confirm_pass" placeholder="Confirm Password">
